@@ -1,0 +1,6 @@
+#the diferent between a list and tupla are: you cannot modify a tupla and to declare a tupla use ()
+tupla =  ("hola", 'mundo')
+# to change a tupla for a list you need use the function list()
+tupla_list= list(tupla)
+tupla_list.append("asdf")
+print(tupla_list)
